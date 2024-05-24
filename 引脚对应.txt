@@ -1,0 +1,52 @@
+mpu6050
+	AD0	-
+	INT	PB0
+	SCL	PB10
+	SDA	PB11
+	GND
+	3.3V
+OLED
+	VCC	 GND 	SCL(PC14) 	SDA(PC15)
+NRF24L01（spi1）
+	MISO(PB4)   SCK(PB3)   CE(PA11)   GND
+	IRQ(PB15)      MOSI(PB5)   CSN(PB12)  VCC
+HC-05（串口2）
+	TX(PA2 )    RX(PA3)   GND  +5V 
+2-电机控制：
+PB12 PB13 PB14 PB15
+PA12 PA15 PB3 PB4
+串口1：
+TX:PA9
+RX:PA10
+编码器1（定时器2）
+	M+
+	5V
+	B	PA0
+	A	PA1
+	GND
+	M-
+编码器2（定时器3）
+	M+
+	5V
+	B	PA6
+	A	PA7
+	GND
+	M-
+2-（定时器4）
+CH1	PB6
+CH2	PB7
+CH3	PB8
+CH4	PB9
+
+
+
+PA8
+PC13
+PA4
+PA5
+PB1
+	
+	
+		
+	
+
